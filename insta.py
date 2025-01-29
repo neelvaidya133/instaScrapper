@@ -160,7 +160,7 @@ def cancel(update: Update, context: CallbackContext) -> int:
 
 def main() -> None:
     # Telegram bot token
-    TELEGRAM_TOKEN = '7447660616:AAG06chZMMxAHIh5C1gGH8ZhwCazwS4B4d4'
+    TELEGRAM_TOKEN = 'Your-telegram-bot-token'
 
     # Create Updater and Dispatcher
     updater = Updater(TELEGRAM_TOKEN, use_context=True)
